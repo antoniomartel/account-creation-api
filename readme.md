@@ -4,11 +4,11 @@ This is a simplified serverless application that exposes an HTTP POST endpoint t
 
 ## Features
 
-- ? Create new accounts via HTTP POST
-- ? Store accounts in DynamoDB
-- ? Emit audit events to SNS
-- ? Publish event format suitable for downstream systems
-- ? Environment-based configuration
+- Create new accounts via HTTP POST
+- Store accounts in DynamoDB
+- Emit audit events to SNS
+- Publish event format suitable for downstream systems
+- Environment-based configuration
 
 ## Stack
 
@@ -53,4 +53,4 @@ This is a simplified serverless application that exposes an HTTP POST endpoint t
 
 ## Environment Variables
 
-- AUDIT_SNS_TOPIC_ARN � SNS topic ARN for publishing audit events
+- AUDIT_SNS_TOPIC_ARN - SNS topic ARN for publishing audit events
